@@ -6,13 +6,13 @@ console.log(`${firstNumber} * ${secondNumber} = ${firstNumber * secondNumber}`);
 console.log(`${firstNumber} / ${secondNumber} = ${firstNumber / secondNumber}`);
 console.log(`${firstNumber} % ${secondNumber} = ${firstNumber % secondNumber}`);
 
-/* console.log("25+20="+(25+20));
+console.log("25+20="+(25+20));
 console.log(25-20);
 console.log(25*20);
 console.log(25/20);
-console.log(25%20); */
+console.log(25%20); 
 
-/*let price = 1500;
+let price = 1500;
 discount = 100;
 console.log("Id: 1");
 console.log("title:Iphone 14");
@@ -23,7 +23,7 @@ console.log("price:" + price);
 console.log("Rating:4.98");
 console.log("Price after discount:" + (price - discount));
 price = 1200;
-console.log("price:" + price); */
+console.log("price:" + price); 
 
 /* Printing describe myself */
 /* console.log(
