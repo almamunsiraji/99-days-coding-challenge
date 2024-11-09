@@ -1,0 +1,36 @@
+
+
+const products=[
+    {id:1,name:'apple iphone 14 pro',price:1600},
+    {id:2,name:'samsung aiux',price:1200},
+    {id:3,name:'oppo note 11',price:1000},
+];
+products.map((product,index)=>{
+    console.log(`product card:${index+1}`);
+    console.log(`Product Id: ${product.id}`);
+    console.log(`Product Name: ${product.name}`);
+    console.log(`Product Price: ${product.price}`);
+    console.log("\n\n");
+
+});
+
+
+const filterproducts=products.filter((product)=>product.price>=1300 && product.price<=1700);
+console.log(filterproducts);
+.map((x)=>x.name;
+console.log(filterdNames);
+const searchproducts =products.filter(product)=> product.name.includes('apple'));
+console.log(searchproducts);
+const searchproducts = products.filter(product) =>product.name.includes('Apple'));
+console.log(searchproducts);
+
+const cartproducts=[
+    {id:1,name:'apple iphone 14 pro',price:1600},
+    {id:2,name:'samsung aiux',price:1200},
+    {id:3,name:'oppo note 11',price:1000}];
+    let totalprice=0;
+    for (let index = 0; index < cartproducts.length; index++) {
+        const element = cartproducts[index].price;
+        
+    }
+    console.log(`You have to pay in total: ${totalprice}`); 
