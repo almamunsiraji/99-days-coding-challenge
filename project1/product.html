@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=" This is an Ecommerce Project by making Abdullah Al Mamun"
+    />
+    <title>Ecommerce Project</title>
+    <!-- font font-awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <i class="fa-solid fa-bars fa-2x" id="menu-icon"></i>
+    <!-- nav bar  starts here  -->
+    <nav class="menu" id="hidden">
+    <!-- nav bar  starts here  -->
+    <nav>
+      <ul class="nav-upper flex-space-around">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link"> Home </a>
+        </li>
+        <li class="nav__list">
+          <a href="register.html" class="nav__link"> Register </a>
+        </li>
+        <li class="nav__list">
+          <a href="login.html" class="nav__link"> Login </a>
+        </li>
+        <li class="nav__list">
+          <a href="product.html" class="nav__link"> Product </a>
+        </li>
+        <li class="nav__list">
+          <a href="profile.html" class="nav__link">
+            <img
+              class="profile-icon"
+              src="./image/Abdullahalmamunsiraji.jpg"
+              alt=" Abdullah Al Mamun Siraji"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+          <a href="index.html" class="nav__brand nav__link">
+            Al Mamun Express
+          </a>
+        </li>
+        <li class="nav__list">
+          <a href="cart.html" class="nav__link">
+            <span> <i class="fa-solid fa-cart-shopping"></i> </span>
+            Cart 2 product -$124.40</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- nav bar  ends here  -->
+    <main class="flex-center">
+      <div class="main-content">
+        <section class="product-details flex-center">
+          <div class="product__details-left flex-center">
+            <img src="./image/Apple.jpeg" alt=" Iphone">
+          </div>
+          <div class="product__details-right">
+            <h3 class="product__name"> Iphone</h3>
+            <p>
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot red"></span>
+            </p>
+            <p class="product__description">
+              <strong> Description: </strong>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro autem, voluptatem in placeat qui aperiam corporis ex facere praesentium, doloribus itaque. Dolorum culpa modi eligendi ipsum, perferendis minus numquam perspiciatis optio qui delectus, ipsa excepturi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laborum, quas obcaecati aut cumque quibusdam. Voluptatem, corporis quae doloremque dolore eaque repellat, itaque numquam quo repellendus illo obcaecati animi, ipsum alias quisquam! Facilis ut blanditiis architecto sapiente doloremque quae quos? Itaque error quam laudantium doloribus? Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Quidem omnis praesentium commodi, 
+              quia molestiae itaque Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus vero illum dolore veritatis, accusamus tenetur, labore rerum quod ipsum quasi omnis esse libero nobis earum laboriosam velit? Sequi, fugiat.</p>
+            <h4 class="product__category">Categiory: Iphone</h4>
+            <h4 class="product__price"> Price: $1500</h4>
+            <p class="product__rating">Rating: 4.5/5</p>
+            <button class="btn product__button"> Add to cart </button>
+            <button class="btn product__button"> Back To Shopping </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe"> Subscribe to Newsletter </label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          class="footer__input"
+          placeholder="Your Email Address"
+        />
+        <button class="btn btn-subscribe">subscribe</button>
+      </div>
+      <div>
+        <p>&copy;copyright 2024 Al Mamun Express. All right reserved</p>
+      </div>
+    </footer>
+    <!-- footer ends here -->
+    <script src="script/index.js"></script>
+  </body>
+</html>
