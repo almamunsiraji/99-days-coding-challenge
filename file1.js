@@ -1,4 +1,4 @@
-let firstNumber = Number(prompt("Enter First Number"));
+/*let firstNumber = Number(prompt("Enter First Number"));
 let secondNumber = Number(prompt("Enter Second Number"));
 console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`);
 console.log(`${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}`);
@@ -37,4 +37,4 @@ console.warn("Hello1");
 console.error("Hello2");
 console.clear();
 confirm("Do you want to see this message or not");
-alert(`hello`);
+alert(`hello`); */

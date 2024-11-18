@@ -1,4 +1,4 @@
-// String
+/*// String
 const printArray = (items) => {
   for (const item of items) {
     console.log(item);
@@ -19,7 +19,7 @@ console.log(greeting.replace("Hello", "bye"));
 const text =
   " Hello Everyone. I am Abdullah Al Mmaun and studying in BSC in CSE";
 const spilededstring = text.split(" ");
-printArray(spilededstring);
+printArray(spilededstring);/*
 
 // Array
 /*const printArray = (items) => {

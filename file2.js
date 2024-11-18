@@ -1,5 +1,5 @@
 // check largest number
-let number1 = 190;
+/*let number1 = 190;
 let number2 = 190;
 let number3 = 190;
 if (number1 > number2 && number1 > number3) {
@@ -65,4 +65,4 @@ if (number % 2 == 0) {
   console.log("even");
 } else {
   console.log("odd");
-}
+}*/

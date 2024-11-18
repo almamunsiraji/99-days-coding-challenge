@@ -1,4 +1,4 @@
-var a = 33;
+/*var a = 33;
 var b = 10;
 var firstname;
 firstname = " Abdullah";
@@ -47,4 +47,4 @@ document.write('We are so-called "Vikings" from the north');
 document.write(linebreak);
 var txt = ' We are so-called "Vikings" from the north.';
 document.write(txt);
-document.write(linebreak);
+document.write(linebreak);*/
